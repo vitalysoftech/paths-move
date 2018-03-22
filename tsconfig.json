@@ -26,8 +26,10 @@
         "target": "es5",
         "baseUrl": ".",
         "paths": {
-            "folder2_1/*": [
-                "src/folder2/folder2_1/*"
+            "*": [
+                "src/folder1/*",
+                "src/folder2/*",
+                "src/folder3/*"
             ]
         }
     },
