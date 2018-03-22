@@ -1,0 +1,1 @@
+import { value } from "folder2_1/file2";

@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+        "declaration": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "importHelpers": true,
+        "jsx": "react",
+        "lib": [
+            "es5",
+            "dom",
+            "es2015.promise"
+        ],
+        "module": "es2015",
+        "moduleResolution": "node",
+        "noEmitOnError": true,
+        "noImplicitAny": false,
+        "noImplicitReturns": false,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "outDir": "build",
+        "pretty": true,
+        "removeComments": true,
+        "sourceMap": true,
+        "strictNullChecks": true,
+        "target": "es5",
+        "baseUrl": ".",
+        "paths": {
+            "folder2_1/*": [
+                "src/folder2/folder2_1/*"
+            ]
+        }
+    },
+    "exclude": [
+        "dist",
+        "build",
+        "node_modules"
+    ]
+}
